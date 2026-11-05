@@ -5,7 +5,7 @@
 import posthog from "posthog-js";
 
 const POSTHOG_KEY = import.meta.env.VITE_POSTHOG_KEY || "";
-const POSTHOG_HOST = import.meta.env.VITE_POSTHOG_HOST || "https://us.i.posthog.com";
+const POSTHOG_HOST = import.meta.env.VITE_POSTHOG_HOST || "";
 
 // Helper to safely access localStorage
 function getStoredParticipantId() {
